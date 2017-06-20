@@ -8,4 +8,5 @@ if (!process.env.KEY) {
 }
 
 console.log('serving dat via dat-now and now.sh')
+console.log(process.env.KEY)
 datNow(process.env.KEY)
