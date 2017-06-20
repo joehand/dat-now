@@ -1,0 +1,13 @@
+{
+  "name": "dat-now",
+  "description": "deploy live to now.sh via dat",
+  "version": "0.0.0",
+  "dependencies": {
+    "dat": "^13.6.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node example.js"
+  }
+}
