@@ -25,7 +25,9 @@ datNow(process.env.KEY, [opts])
 
 ```json
 {
-  "key": "beakerbrowser.com"
+  "env" : {
+    "KEY" : "dat://28cddf6d5d21bbd9492dcdba14a68b9a35393b769b15f61e2a5258567d8bca8f"
+  }
 }
 ```
 
