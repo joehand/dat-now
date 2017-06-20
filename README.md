@@ -11,13 +11,11 @@ Publish live syncing and versioned websites, files, whatever to now.sh instantly
 
 ### What does this do?
 
-* Share a folder on your computer using [Dat](github.com/datproject/dat).
-* Deploy *ONCE* to [now.sh](https://zeit.co/now) with your **dat key**
-* Live sync your files to now.sh without touching anything.
+* Shares a folder on your computer using [Dat](github.com/datproject/dat).
+* Deploys *ONCE* to [now.sh](https://zeit.co/now) with your **dat key**
+* Live syncs your files to now.sh without touching anything.
 
-
-
-## How does it work?
+### How does it work?
 
 Whenever you share a dat, `dat-now` connects via a peer to peer network to your computer. It downloads the latest copies of all the files whenever you are connected.
 
