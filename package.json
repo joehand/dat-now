@@ -9,7 +9,7 @@
   "main": "index.js",
   "bin": "cli.js",
   "scripts": {
-    "start": "node example.js"
+    "start": "node cli.js"
   },
   "directories": {
     "test": "test"

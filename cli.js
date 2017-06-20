@@ -7,5 +7,5 @@ if (!process.env.KEY) {
   process.exit(1)
 }
 
-console.log('serving dat now via dat-now and now.sh')
+console.log('serving dat via dat-now and now.sh')
 datNow(process.env.KEY)

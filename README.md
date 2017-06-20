@@ -1,39 +1,28 @@
 # dat-now
 
-Share a dat over http, hosted on now.sh (or anywhere).
-
-A tiny module using [dat](github.com/datproject/dat) to *live* host stuff on [now.sh](https://zeit.co/now) over http.
-
-## Install
-
-```
-npm install dat-now
-```
+Publish live syncing and versioned websites, files, whatever to now.sh instantly and forever.
 
 ## Usage
 
-`dat-now` needs your dat key to run. The easiest way to do this is to set it in `now.json`:
+* Share a folder on your computer using [Dat](github.com/datproject/dat).
+* Deploy *ONCE* to [now.sh](https://zeit.co/now) with your **dat key**
+* Live sync your files to now.sh without touching anything.
 
-```json
-{
-  "env" : {
-    "KEY" : "dat://28cddf6d5d21bbd9492dcdba14a68b9a35393b769b15f61e2a5258567d8bca8f"
-  }
-}
-```
+### `dat share`
 
-Then you can simple set `npm start` to `dat-now`!
+Share a folder over dat
 
-### As script
+![dat share](https://blog.datproject.org/content/images/2017/06/dat-share.gif)
 
-You can also run it as a script. Set up your project with an `index.js` file:
+### `now joehand/dat-now -e KEY=dat://28cddf6d5d21bbd9492dcdba14a68b9a35393b769b15f61e2a5258567d8bca8f`
 
-```js
-var datNow = require('dat-now')
-datNow(process.env.KEY, [opts])
-```
+**Set your dat key** as an environment variable + deploy via now. You only need to deploy once for each dat key.
 
-This will let you set any other options you want.
+## How does it work?
+
+Whenever you share a dat, `dat-now` connects via a peer to peer network to your computer. It downloads the latest copies of all the files whenever you are connected.
+
+Once on now, Dat serves the files over http! You can even view old versions of the files: `https://dat-now-enqtptfoko.now.sh/?version=100`.
 
 ## License
 
