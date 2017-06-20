@@ -5,7 +5,7 @@ Publish live syncing and versioned websites, files, whatever to now.sh instantly
 ## Usage
 
 * `dat share`
-`now joehand/dat-now -e KEY=dat://28cddf6d5d21bbd9492dcdba14a68b9a35393b769b15f61e2a5258567d8bca8f`
+* `now joehand/dat-now -e KEY=dat://28cddf6d5d21bbd9492dcdba14a68b9a35393b769b15f61e2a5258567d8bca8f`
 
 **Set your dat key** as an environment variable + deploy via now. You only need to deploy once for each dat key.
 
