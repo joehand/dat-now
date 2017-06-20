@@ -2,7 +2,7 @@
 
 Share a dat over http, hosted on now.sh (or anywhere).
 
-A tiny module using [dat](github.com/datproject/dat) to *live* host stuff on [now.sh][https://zeit.co/now] over http.
+A tiny module using [dat](github.com/datproject/dat) to *live* host stuff on [now.sh](https://zeit.co/now) over http.
 
 ## Install
 

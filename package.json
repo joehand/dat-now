@@ -9,5 +9,22 @@
   "main": "index.js",
   "scripts": {
     "start": "node example.js"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joehand/dat-now.git"
+  },
+  "keywords": [
+    "dat",
+    "now"
+  ],
+  "author": "joe hand",
+  "bugs": {
+    "url": "https://github.com/joehand/dat-now/issues"
+  },
+  "homepage": "https://github.com/joehand/dat-now#readme"
 }
