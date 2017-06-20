@@ -1,7 +1,7 @@
 {
   "name": "dat-now",
   "description": "deploy live to now.sh via dat",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "dependencies": {
     "dat": "^13.6.0"
   },
