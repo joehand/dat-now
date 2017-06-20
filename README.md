@@ -12,16 +12,7 @@ npm install dat-now
 
 ## Usage
 
-Set up your project with an index.js file and a `now.json` file:
-
-`index.js`:
-
-```js
-var datNow = require('dat-now')
-datNow(process.env.KEY, [opts])
-```
-
-`now.json`:
+`dat-now` needs your dat key to run. The easiest way to do this is to set it in `now.json`:
 
 ```json
 {
@@ -30,6 +21,19 @@ datNow(process.env.KEY, [opts])
   }
 }
 ```
+
+Then you can simple set `npm start` to `dat-now`!
+
+### As script
+
+You can also run it as a script. Set up your project with an `index.js` file:
+
+```js
+var datNow = require('dat-now')
+datNow(process.env.KEY, [opts])
+```
+
+This will let you set any other options you want.
 
 ## License
 

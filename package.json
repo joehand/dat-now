@@ -7,6 +7,7 @@
   },
   "license": "MIT",
   "main": "index.js",
+  "bin": "cli.js",
   "scripts": {
     "start": "node example.js"
   },
