@@ -5,7 +5,8 @@ var xtend = require('xtend')
 module.exports = function (key, opts) {
   assert.ok(key, 'dat-now: key required')
   opts = xtend({
-    key: key
+    key: key,
+    temp: true
   }, opts)
 
   // now.sh only allows files in /tmp folder
